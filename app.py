@@ -35,7 +35,7 @@ st.header("Purpose:Supporting student's overall well-being"
 
 st.header("Activities or services")
 for activity in activities:
-# Your Streamlit display instruction goes here
+    st.write(activity)
     
 # TODO 4: Write a for loop that displays every value from activities.
 # Use Streamlit output inside the loop. Do not type each activity again.
