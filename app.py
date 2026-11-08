@@ -34,11 +34,11 @@ st.header("Purpose:Supporting student's overall well-being"
 # The handout explains triple quotes if your Markdown spans several lines.
 
 st.header("Activities or services")
-# TODO 4: Write a for loop that displays every value from activities.
+for activity in activities:
+    # Your Streamlit display instruction goes here
+    
+ # TODO 4: Write a for loop that displays every value from activities.
 # Use Streamlit output inside the loop. Do not type each activity again.
-for items in activities:
-    #Display the current item using Streamlit
-
 st.header("Day:Wednesday"
           "Time:2:00 PM")
 # TODO 5: Display at least two dictionary values by looking them up by key.
