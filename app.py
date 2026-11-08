@@ -10,8 +10,7 @@ import streamlit as st
 club_info = {
     "name": "Student Wellness Club",
     "day": "Wednesday",
-    "time": "2:00 PM",
-}
+    "time": "2:00 PM",}
 
 # TODO 2: Replace these sample strings with at least three relevant activities.
 # During the list change check, add one new item and keep it in the final app.
@@ -19,15 +18,17 @@ activities = [
     "Guided meditation and breathing exercises",
     "Vision board and goal-setting workshops",
     "Stress free games and movie night",
+    "Peer support circles where studentd can share experiences.
 ]
 
 st.title(club_info["name"])
 st.caption("A fictional CIS 211 course project. These are not real campus arrangements.")
 
 # Remove this starter message when your page is complete.
-st.write("Starter page: complete the TODO sections using the Lab 4 guide.")
+st.write("")
 
-st.header("Purpose:Supporting student's overall well-being"
+st.header("About club")
+st.markdown("Purpose:Supporting student's overall well-being"
           "Focus:Stress management,self-care and positive connections.")
 # TODO 3: Use st.markdown() to write your own two- or three-sentence introduction.
 # Include both **bold** and *italic* text inside your Python string.
