@@ -46,7 +46,7 @@ st.header("Day:Wednesday"
 
 st.header("Students can bring a notebook."
           "Comfortable clothing is welcome."
-          "New members are welcomed."")
+          "New members are welcomed.")
 
 # TODO 6: Use st.markdown() to display a three-item Markdown list.
 # Add one meaningful, working external Markdown link.
