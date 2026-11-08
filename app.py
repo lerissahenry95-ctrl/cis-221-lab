@@ -18,7 +18,7 @@ activities = [
     "Guided meditation and breathing exercises",
     "Vision board and goal-setting workshops",
     "Stress free games and movie night",
-    "Peer support circles where studentd can share experiences.
+    "Peer support circles where studentd can share experiences."
 ]
 
 st.title(club_info["name"])
