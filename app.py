@@ -27,7 +27,7 @@ st.caption("A fictional CIS 211 course project. These are not real campus arrang
 # Remove this starter message when your page is complete.
 st.write("")
 
-st.header("About club")
+st.header("About Club")
 st.markdown("Purpose:Supporting student's overall well-being"
           "Focus:Stress management,self-care and positive connections.")
 # TODO 3: Use st.markdown() to write your own two- or three-sentence introduction.
@@ -40,12 +40,14 @@ for activity in activities:
     
 # TODO 4: Write a for loop that displays every value from activities.
 # Use Streamlit output inside the loop. Do not type each activity again.
-st.header("Day:Wednesday"
+st.header("Details")
+st.markdown("Day:Wednesday"
           "Time:2:00 PM")
 # TODO 5: Display at least two dictionary values by looking them up by key.
 # Give the displayed values meaningful labels such as Day and Time.
 
-st.header("Students can bring a notebook."
+st.header(Perpare  a visit)
+st.markdown  "Students can bring a notebook."
           "Comfortable clothing is welcome."
           "New members are welcomed.")
 
@@ -54,8 +56,8 @@ st.header("Students can bring a notebook."
 # https://www.nimh.nih.gov/health/topics/caring-for-your-mental-health
 
 # TODO 7: Add at least three comments explaining your OWN completed code.
- #This list stores the activites offered by the Student Wellness Club.
+#This list stores the activites offered by the Student Wellness Club.
 #This loop displays each sctivity from the list.
-#This dictionary stroes imporatnat inforamtion about the club meetings.
+#This dictionary stores imporatnat inforamtion about the club meetings.
 # TODO 8: Perform both change checks and complete the private submission template.
 # Upload your final source files, links, reflection, and app screenshots to Brightspace.
