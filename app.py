@@ -47,7 +47,7 @@ st.markdown("Day:Wednesday"
 # Give the displayed values meaningful labels such as Day and Time.
 
 st.header(Perpare  a visit)
-st.markdown  "Students can bring a notebook."
+st.markdown ("Students can bring a notebook."
           "Comfortable clothing is welcome."
           "New members are welcomed.")
 
